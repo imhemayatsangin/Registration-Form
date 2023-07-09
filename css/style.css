@@ -6,7 +6,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right,#9d0fb9,#7177ed);
+    background: linear-gradient(to right,#80c3ea,#7177ed);
     animation: color-transition 20s linear infinite;
 
 }
