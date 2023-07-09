@@ -1,0 +1,78 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial,sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right,#9d0fb9,#7177ed);
+    animation: color-transition 20s linear infinite;
+
+}
+@keyframes color-transition{
+0%{
+    background-position: 0%;
+}
+100%{
+    background-position: 100%;
+}
+
+}
+
+.registration-form{
+background-color: #fff;
+padding:50px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.registration-form h2{
+    text-align: center;
+    color:#333;
+}
+
+.registration-form .form-group{
+    margin-bottom: 20px;
+}
+.registration-form label{
+    display: block;
+    margin-bottom: 5px;
+    color:#555;
+
+
+}
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #2B86c5;
+    border-radius: 4px;
+    /* transition: border-color 0.3s ease; */
+}
+
+.registration-form input[type="text"]:focus,
+.registration-form input[type="password"]:focus,
+.registration-form input[type="email"]:focus {
+   
+    outline: none;
+    border-color: #0876c5;
+    background-color: #e8f094; /* Add the desired background color */
+}
+
+.registration-form button{
+  
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #2B86c5;
+    border: none;
+    color:#fff;
+    border-radius:4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+
+}
+.registration-form button:hover{
+background-color: #0972bd;
+}
